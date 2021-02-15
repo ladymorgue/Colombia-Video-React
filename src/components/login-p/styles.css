@@ -1,0 +1,151 @@
+.login{
+    justify-content: center;
+    display: flex;
+}
+
+.login_contenedor{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    width: 300px;
+    height: 700px;
+    border: white solid 3px;
+    border-radius: 40px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.login_contenedor h2{
+    width: 300px;
+    height: 30px;
+    display: block;
+    font-size: 24px;
+    margin-block-end: 19px;
+    margin-block-start: 19px;
+    margin-top: 44px;
+}
+
+.login_contenedor_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 92px;
+}
+
+.input{
+    width: 300px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+::placeholder { color:white; }
+
+/* Para quitar focus del input */
+input:focus, input.buscador:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.boton{
+    background-color: rgb(110, 178, 238);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.boton:hover{
+    color: rgb(111, 6, 172);
+}
+
+.login_contenedor_recuerdame{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login_contenedor_recuerdame label{
+    font-family: 'Mulish', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.login_contenedor_recuerdame a{
+    font-family: 'Mulish', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login_contenedor_recuerdame a:hover{
+    text-decoration: underline;
+}
+
+/* Comienza el contenedor de redes */
+
+.login_contenedor_redes{
+    padding-top: 50px;
+    width: 300px;
+    height: 90px;
+    display: block;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.redes{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.redes:hover{
+    text-decoration: underline;
+}
+
+/* Comienza el contenedor de registro */
+.login_contenedor_registro{
+    width: 300px;
+    height: 20px;
+    margin-top: 90px;
+}
+
+.login_contenedor_registro a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.login_contenedor_registro a:hover{
+    text-decoration: underline;
+}

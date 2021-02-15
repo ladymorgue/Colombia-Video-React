@@ -1,0 +1,64 @@
+.carousel_fotos{
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    transform-origin: center;
+}
+.carousel_fotos:hover{
+    transform: scale(1.5);
+    transition: 450ms all;
+    z-index: 1;
+}
+
+.carousel_fotos img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Botones efecto hover sobre las fotos */
+
+.carousel_informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    opacity: 0;
+}
+
+.carousel_informacion:hover{
+    background:linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    opacity: 1;
+    transition: 450ms opacity;
+}
+
+.carousel_informacion_img img{
+    width: 20px;
+    height: 20px;
+}
+
+.carousel_informacion_titulo{
+    margin: 5px 0px 0px 0px ;
+    font-family: 'Mulish', sans-serif;
+    color:white;
+}
+
+.carousel_informacion_subtitulo{
+    font-size: 8px;
+    margin: 3px 0px;
+    font-family: 'Mulish', sans-serif;
+    color:white;
+}

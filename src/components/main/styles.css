@@ -1,0 +1,51 @@
+.lista{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 15.6px;
+    margin-left: 35px;
+    position: absolute;
+
+}
+
+.container1{
+    width: 100%;
+    height: 280px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal{
+    height: 28px;
+    align-content: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24.3px;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.buscador{
+    width: 68%;
+    height: 42px;
+    border-radius: 25px;
+    border: 2.8px solid white;
+    background-color: rgb(153, 103, 252);
+    display: flex;
+    font-size: 16.7PX;
+    padding:0 15px ;
+}
+
+::placeholder { color:white; }
+
+/* Para quitar focus del input */
+
+input:focus, input.buscador:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}

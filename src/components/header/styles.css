@@ -1,0 +1,106 @@
+.cabezote{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+/* Menú superior izquierdo */
+
+.logo{
+    width: 390px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 22px;
+}
+
+.logo p{
+    margin-left: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.logo img{
+    width: 80px;
+    height: 15px;
+    padding-top: 3px;
+}
+
+/* Menú superior derecho */
+
+.menu_total{
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_total img{
+    width: 42px;
+    height: 42px;
+    margin-right: 45px;
+}
+
+.navegacion{
+    color: white;
+    width: 80px;
+}
+
+.menu > li{
+    width: 40px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    color: white;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+
+.menu > li > a{
+    display: inline-flex;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    padding-right: 90px;
+}
+
+.menu li a:hover{
+    transition: all 0.3s;
+}
+.submenu{
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}    
+
+.submenu li a{
+    width: 100px;
+    height:0px ;
+    display:block;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    text-decoration-color: white;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 150px;
+    margin-top: 30px;
+    padding-inline-end: 0%;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.menu li:hover .submenu{
+    display:block;
+}
